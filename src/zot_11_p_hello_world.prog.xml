@@ -3,17 +3,18 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZOT_11_TESTPROG</NAME>
+    <NAME>ZOT_11_P_HELLO_WORLD</NAME>
+    <DBAPL>S</DBAPL>
     <SUBC>1</SUBC>
-    <RLOAD>T</RLOAD>
     <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
     <UCCHECK>X</UCCHECK>
    </PROGDIR>
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>TESTPROG</ENTRY>
-     <LENGTH>8</LENGTH>
+     <ENTRY>Hello World</ENTRY>
+     <LENGTH>11</LENGTH>
     </item>
    </TPOOL>
   </asx:values>

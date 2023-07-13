@@ -1,17 +1,15 @@
 *&---------------------------------------------------------------------*
-*& Report ZOT_11_TESTPROG
+*& Report zot_11_p_hello_world
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZOT_11_TESTPROG.
+REPORT zot_11_p_hello_world.
 
-WRITE 'hello world'.
+*WRITE 'Hello World'.
 
 *cl_demo_output=>write(  'Hello World' ).
 *cl_demo_output=>write(  'Merhaba Dünya' ).
-
 *cl_demo_output=>line( ).
-**yazdıran class  kısayol
-*
+*yazdıran class  kısayol
 *cl_demo_output=>display( ).
-** konsolda görmek için
+* konsolda görmek için
