@@ -9,7 +9,6 @@ REPORT zot_11_p_hello_world.
 
 *cl_demo_output=>write(  'Hello World' ).
 *cl_demo_output=>write(  'Merhaba Dünya' ).
+
 *cl_demo_output=>line( ).
-*yazdıran class  kısayol
-*cl_demo_output=>display( ).
-* konsolda görmek için
+*cl_demo_output=>display( ).     "konsolda görmek için

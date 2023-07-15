@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZOT_11_PERSONEL_SORGU</NAME>
+    <NAME>ZOT_11_FIBO_DIZ_KIR</NAME>
     <DBAPL>S</DBAPL>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
@@ -13,8 +13,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Personel Sorgu Programı</ENTRY>
-     <LENGTH>23</LENGTH>
+     <ENTRY>Fibonachi Dizilim ve Kırılım</ENTRY>
+     <LENGTH>28</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
