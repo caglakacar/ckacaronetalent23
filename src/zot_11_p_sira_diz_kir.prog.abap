@@ -16,12 +16,12 @@ DO.
        lv_index = lv_index + 1.
        WRITE lv_index.
 
-  IF lv_index LE p_son.
+        IF lv_index LE p_son.
 
-     IF lv_index MOD p_dizi EQ 0.
-     WRITE /.
-     ENDIF.
-  ELSE.
-  EXIT.
-  ENDIF.
+          IF lv_index MOD p_dizi EQ 0.
+          WRITE /.
+          ENDIF.
+        ELSE.
+        EXIT.
+        ENDIF.
 ENDDO.

@@ -29,7 +29,7 @@ TABLES:  zot_11_t_twt.
 
 "Tweet At
 IF p_twtat = 'X'.
-  " TRY.
+
    IF p_twtid IS INITIAL.
       MESSAGE 'Tweet ID girmeniz gerekiyor!.' TYPE 'I'.
     ELSEIF p_twt IS INITIAL.
@@ -43,13 +43,12 @@ IF p_twtat = 'X'.
       MODIFY zot_11_t_twt FROM TABLE lt_twt.
       MESSAGE 'Tweetiniz başarıyla atıldı.' TYPE 'I'.
     ENDIF.
-    "CATCH.
-    "cl_demo_output=>display( 'Bu tweet id kullanılıyor.Lütfen farklı bir id giriniz!' ). TYPE 'I'.
-    "ENDTRY.
 
+    "MESSAGE 'Bu tweet id kullanılıyor.Lütfen farklı bir id giriniz!' ). TYPE 'I'. yazz!!!
 
 "Tweet Değiştir
 ELSEIF p_twtdeg = 'X'.
+
     IF p_twtid IS INITIAL.
       MESSAGE 'Tweet numaranız bulunamamıştır. Lütfen tekrar deneyiniz!.' TYPE 'I'.
     EXIT.
@@ -61,11 +60,11 @@ ELSEIF p_twtdeg = 'X'.
      COMMIT WORK AND WAIT.
      MESSAGE : 'Tweetiniz başarıyla değiştirildi!' TYPE 'I'.
     ENDIF.
-     "MESSAGE  'Tweetiniz değiştirilirken hata oluştu!' TYPE 'I'.
 
 
 "Tweet Sil
 ELSEIF p_twtsil = 'X'.
+
     IF p_twtid IS INITIAL.
     MESSAGE 'Tweetiniz bulunamamıştır.Lütfen tekrar deneyiniz!.' TYPE 'I'.
     EXIT.
@@ -79,6 +78,7 @@ ELSEIF p_twtsil = 'X'.
 
 "Tweet Göster
 ELSEIF p_twtgos = 'X'.
+
     IF p_twtid IS INITIAL.
     SELECT COUNT(*)
     FROM  zot_11_t_twt

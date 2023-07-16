@@ -19,22 +19,23 @@ DATA: lv_bolum TYPE i,
 WHILE lv_sayi LE p_num.
       lv_bolum = 2.
 
-CLEAR lv_flag.
+      CLEAR lv_flag.
 
-WHILE lv_bolum < lv_sayi.
-      lv_kalan = lv_sayi MOD lv_bolum.
+        WHILE lv_bolum < lv_sayi.
+              lv_kalan = lv_sayi MOD lv_bolum.
 
-IF    lv_kalan = 0.
-      lv_flag = 'X'.
-EXIT.
-ENDIF.
-      lv_bolum = lv_bolum + 1.
-ENDWHILE.
+                IF  lv_kalan = 0.
+                    lv_flag = 'X'.
+                EXIT.
+                ENDIF.
 
-IF    lv_flag = ''.
-WRITE : / lv_sayi.
-WRITE : 'Asal sayıdır.'.
-ENDIF.
+              lv_bolum = lv_bolum + 1.
+        ENDWHILE.
 
-      lv_sayi = lv_sayi + 1.
+       IF    lv_flag = ''.
+       WRITE : / lv_sayi.
+       WRITE : 'Asal sayıdır.'.
+       ENDIF.
+
+       lv_sayi = lv_sayi + 1.
 ENDWHILE.
