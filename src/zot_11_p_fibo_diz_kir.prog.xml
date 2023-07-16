@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZOT_11_FIBO_DIZ_KIR</NAME>
+    <NAME>ZOT_11_P_FIBO_DIZ_KIR</NAME>
     <DBAPL>S</DBAPL>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
@@ -13,7 +13,7 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Fibonachi Dizilim ve Kırılım</ENTRY>
+     <ENTRY>Fibonacci Dizilim ve Kırılım</ENTRY>
      <LENGTH>28</LENGTH>
     </item>
    </TPOOL>
