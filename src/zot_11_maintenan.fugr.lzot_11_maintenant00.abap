@@ -25,15 +25,21 @@ DATA:  BEGIN OF STATUS_ZOT_11_T_TWT                  .   "state vector
 DATA:  END OF STATUS_ZOT_11_T_TWT                  .
 CONTROLS: TCTRL_ZOT_11_T_TWT
             TYPE TABLEVIEW USING SCREEN '0004'.
+*...processing: ZOT_11_T_ZMN....................................*
+DATA:  BEGIN OF STATUS_ZOT_11_T_ZMN                  .   "state vector
+         INCLUDE STRUCTURE VIMSTATUS.
+DATA:  END OF STATUS_ZOT_11_T_ZMN                  .
 *.........table declarations:.................................*
 TABLES: *ZOT_11_T_P_ILTSM              .
 TABLES: *ZOT_11_T_P_ITUR               .
 TABLES: *ZOT_11_T_P_MAST               .
 TABLES: *ZOT_11_T_TWT                  .
+TABLES: *ZOT_11_T_ZMN                  .
 TABLES: ZOT_11_T_P_ILTSM               .
 TABLES: ZOT_11_T_P_ITUR                .
 TABLES: ZOT_11_T_P_MAST                .
 TABLES: ZOT_11_T_TWT                   .
+TABLES: ZOT_11_T_ZMN                   .
 
 * general table data declarations..............
   INCLUDE LSVIMTDT                                .
