@@ -9,31 +9,27 @@ REPORT zot_11_p_zmn.
 *
 *SELECT-OPTIONS s_index FOR zot_11_t_zmn-index.
 *
+*SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME TITLE TEXT-002.
 *START-OF-SELECTION.
 *
-*SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME TITLE TEXT-002.
-*
-*  PARAMETERS: p_secnk  RADIOBUTTON GROUP g1,
-*              p_gstr   RADIOBUTTON GROUP g1.
-*
 *SELECTION-SCREEN END OF BLOCK b2.
-*
-*DATA:     lv_yılfrk     TYPE i,
-*          lv_ayfrk      TYPE i,
-*          lv_gunfrk     TYPE i,
-*          lv_saatfrk    TYPE i,
-*          lv_dkfrk      TYPE i,
-*          lv_snfrk      TYPE i,
-*          lv_trihfrk1   TYPE dats,
-*          lv_trihfrk2   TYPE dats,
-*          lv_zmnfrk1    TYPE tims,
-*          lv_zmnfrk2    TYPE tims.
-*
-*
 *TABLES:   zot_11_t_zmn.
 *
 *DATA:     lt_zmn TYPE TABLE OF zot_11_t_zmn,
 *          ls_zmn TYPE  zot_11_t_zmn.
+
+*DATA:     lv_yıl        TYPE i,
+*          lv_ay         TYPE i,
+*          lv_gun        TYPE i,
+*          lv_saat       TYPE i,
+*          lv_dk         TYPE i,
+*          lv_sn         TYPE i,
+
+
+*          lv_trih1   TYPE dats,
+*          lv_trih2   TYPE dats,
+*          lv_zmn1       TYPE tims,
+*          lv_zmn2      TYPE tims.
 *
 *  SELECT *
 *  FROM zot_11_t_zmn
@@ -63,16 +59,16 @@ REPORT zot_11_p_zmn.
 *                   bslgcsaat    = '151315'
 *                   btstarih     = '20230228'
 *                   btssaat      =  '151015'   ) TO lt_zmn.
+
+*LOOP AT: lt_zmn INTO ls_zmn.
+
+*    lv_yılfrk  = lv_gunfrk DIV 365.
+*    lv_ayfrk   = lv_gunfrk DIV 30.
+*    lv_saatfrk = lv_dkfrk DIV 60.
+*    lv_dkfrk   = lv_snfrk DIV 60.
 *
-*          lv_yılfrk  = lv_gunfrk DIV 365.
-*          lv_ayfrk   = lv_gunfrk DIV 30.
-*          lv_saatfrk = lv_dkfrk DIV 60.
-*          lv_dkfrk   = lv_snfrk DIV 60.
 *
-*
-*
-*" başındaki sıfırlaı silmek için shift deleting leading 0 kullanımına bak!
-*
+
 * "Indexe ait kayıttakiler
 *IF lv_yılfrk NE 0.
 *WRITE: |{ lv_yılfrk  } Yıl|.
