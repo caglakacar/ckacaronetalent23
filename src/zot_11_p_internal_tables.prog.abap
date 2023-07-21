@@ -69,7 +69,6 @@ ENDLOOP.
 
 
 "4- zli tablodan çekilen veriler ile yeni eklediğimiz verileri bir internala koy!
-
 APPEND LINES OF lt_material TO lt_material_new2.
 APPEND LINES OF lt_material_new1 TO lt_material_new2.
 
