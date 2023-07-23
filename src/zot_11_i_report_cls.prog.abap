@@ -12,20 +12,16 @@
 *          VALUE(ro_instance) TYPE REF TO lcl_main_controller.
 *
 *    METHODS:
-*      "! Selection screen output event
-*      selscr_output,
-*      "! Selection screen input event
-*      selscr_input,
-*      "! Get report data
-*      get_data,
-*      "! Display report
-*      display_data,
-*      display_SALV,
-*      display_grid,
-*      select_file,
+*      get_datasat,
+*      get_datasas,
+*      display_data_sat,
+*      display_data_sas,
+*      display_grid_sat,
+*      display_grid_sas,
 *      init_0100,
+*      init_0100_sas,
 *      free.
-*
+**
 *  PRIVATE SECTION.
 *    CLASS-DATA:
 *      "! Singleton object

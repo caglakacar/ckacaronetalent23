@@ -12,9 +12,57 @@
    </PROGDIR>
    <TPOOL>
     <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Lütfen SAT ve SAS Giriniz</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>SAT-SAS  SAS-SAT</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
      <ID>R</ID>
      <ENTRY>Report Ödev</ENTRY>
      <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SAS</KEY>
+     <ENTRY> SAS</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SAT</KEY>
+     <ENTRY> SAT</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_SASBP</KEY>
+     <ENTRY>?...</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_SASBP1</KEY>
+     <ENTRY>?...</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_SATBFN</KEY>
+     <ENTRY>Belge Türü:</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_SATBLN</KEY>
+     <ENTRY>Belge Türü:</ENTRY>
+     <LENGTH>19</LENGTH>
     </item>
    </TPOOL>
   </asx:values>

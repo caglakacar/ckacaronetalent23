@@ -5,33 +5,67 @@
 *&---------------------------------------------------------------------*
 REPORT zot_11_p_report.
 
-INCLUDE zot_11_i_report_top.
-INCLUDE zot_11_i_report_sel.
-INCLUDE zot_11_i_report_cls.
-INCLUDE zot_11_i_report_mdl.
-
-
+*TABLES: eban,
+*        ekpo.
+*
+*INCLUDE zot_11_i_report_top.
+*INCLUDE zot_11_i_report_sel.
+*INCLUDE zot_11_i_report_cls.
+*INCLUDE zot_11_i_report_mdl.
+*
 *INITIALIZATION.
 *  go_main = lcl_main_controller=>get_instance( ).
 *
-**AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_file.
-**  go_main->select_file( ).
 *
-*AT SELECTION-SCREEN OUTPUT.
-*  go_main->selscr_output( ).
-**
-*AT SELECTION-SCREEN.
-*  go_main->selscr_input( ).
-**
 *START-OF-SELECTION.
-*  go_main->get_data( ).
+*
+*  IF p_sat = abap_true.
+*    go_main->get_datasat( ).
+*
+*    SELECT eban~banfn,
+*           eban~bnfpo,
+*           eban~bsart,
+*           eban~matnr,
+*           eban~menge,
+*           eban~meins
+*    FROM eban
+*    INNER JOIN ekpo ON ekpo~banfn = eban~banfn AND ekpo~matkl = eban~matkl
+*    WHERE eban~banfn IN @s_sat_id AND eban~bsart IN @s_sat_in
+*                                            "bnfpo
+*    INTO TABLE @gt_sat.
+*
+*    LOOP AT gt_sat INTO gs_sat.
+*      IF gs_sat-menge > 10.
+*        gs_sat-color = 'C510'.
+*      ENDIF.
+*      MODIFY gt_sat FROM gs_sat.
+*    ENDLOOP.
+*
+*    go_main->display_grid_sat( ).
+*
+*  ELSEIF p_sas = abap_true.
+*    go_main->get_datasas( ).
+*
+*    SELECT ekpo~ebeln,
+*           ekpo~ebelp,
+*           ekpo~matnr,
+*           ekpo~menge,
+*           ekpo~meins
+*    FROM ekpo
+*    INNER JOIN eban ON eban~banfn = ekpo~banfn AND ekpo~matkl = eban~matkl
+*    WHERE ekpo~ebeln IN @s_sas_id AND ekpo~matkl IN @s_sas_in
+*    INTO TABLE @gt_sas.
+*
+*    LOOP AT gt_sas INTO gs_sas.
+*      IF gs_sas-menge > 10.
+*        gs_sas-color = 'C510'.
+*      ENDIF.
+*      MODIFY gt_sas FROM gs_sas.
+*    ENDLOOP.
+*
+*    go_main->display_grid_sas( ).
+*
+*  ENDIF.
+*
 *
 *END-OF-SELECTION.
-*  CASE abap_true.
-*    WHEN p_alv.
-**      go_main->display_data( ).
-*    WHEN p_salv.
-*      go_main->display_SALV( ).
-*    WHEN p_grid.
-*      go_main->display_grid( ).
-*  ENDCASE.
