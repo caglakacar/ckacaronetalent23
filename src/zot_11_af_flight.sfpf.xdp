@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20230422.1.42_SAP" APIVersion="3.6.23111.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2023-07-21T15:02:51Z" uuid="52ad4fb3-01b0-46fc-a1ff-3a35380574aa">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2023-07-26T06:53:34Z" uuid="52ad4fb3-01b0-46fc-a1ff-3a35380574aa">
 <template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
    <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
    <subform layout="tb" locale="tr_TR" name="data" restoreState="auto">
       <pageSet>
          <pageArea id="Page1" name="Page1">
-            <contentArea h="10.5in" w="8in" x="0.25in" y="0.25in"/>
+            <contentArea h="174.625mm" w="190.5mm" x="12.7mm" y="53.975mm"/>
             <medium long="11in" short="8.5in" stock="letter"/>
             <draw h="15.875mm" name="Text4" w="158.75mm" x="31.75mm" y="234.95mm">
                <ui>
@@ -21,139 +21,129 @@
                <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
                <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
             </draw>
-            <draw h="6.291mm" name="Text5" w="41.275mm" x="85.725mm" y="6.35mm">
-               <ui>
-                  <textEdit/>
-               </ui>
-               <value>
-                  <text xliff:rid="F02D71A2-7029-435D-BF15-06E030D9159C">HAVA YOLLARI</text>
-               </value>
-               <font baselineShift="0pt" size="15pt" typeface="Arial"/>
-               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
-            </draw>
-            <draw h="5.2331mm" name="Text6" w="39.354mm" x="85.725mm" y="12.7mm">
-               <ui>
-                  <textEdit/>
-               </ui>
-               <value>
-                  <text xliff:rid="3B221722-1463-44D6-9FC8-890092C098EE">Detaylı Liste Raporu</text>
-               </value>
-               <font baselineShift="0pt" size="12pt" typeface="Arial"/>
-               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
-            </draw>
-            <draw h="8.761mm" name="Text7" w="33.351mm" x="66.675mm" y="34.925mm">
-               <ui>
-                  <textEdit/>
-               </ui>
-               <value>
-                  <text xliff:rid="AB32A574-11E7-4F13-B955-765CA110441D">Gizlilik Politikası Verilerin Saklanması</text>
-               </value>
-               <font baselineShift="0pt" typeface="Arial"/>
-               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
-            </draw>
-            <field h="9mm" name="USERNAME" w="62mm" x="139.7mm" y="15.875mm">
-               <ui>
-                  <textEdit>
-                     <border>
-                        <edge stroke="lowered"/>
-                     </border>
-                     <margin/>
-                  </textEdit>
-               </ui>
-               <font typeface="Arial"/>
-               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-               <para vAlign="middle"/>
-               <caption reserve="25mm">
+            <subform minH="38.1mm" w="185.825mm" x="15.875mm" y="6.35mm">
+               <bind match="none"/>
+               <keep intact="none"/>
+               <draw h="6.291mm" name="Text5" w="41.275mm" x="69.85mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="F02D71A2-7029-435D-BF15-06E030D9159C">HAVA YOLLARI</text>
+                  </value>
+                  <font baselineShift="0pt" size="15pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               </draw>
+               <draw h="5.2331mm" name="Text6" w="39.354mm" x="69.85mm" y="6.35mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="3B221722-1463-44D6-9FC8-890092C098EE">Detaylı Liste Raporu</text>
+                  </value>
+                  <font baselineShift="0pt" size="12pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               </draw>
+               <draw h="8.761mm" name="Text7" w="33.351mm" x="50.8mm" y="28.575mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="AB32A574-11E7-4F13-B955-765CA110441D">Gizlilik Politikası Verilerin Saklanması</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               </draw>
+               <field h="9mm" name="USERNAME" w="62mm" x="123.825mm" y="9.525mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="F6F38600-B694-475C-BC5D-372BB89509BC">Kullanıcı</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.SFPSY.USERNAME"/>
+                  <value>
+                     <text maxChars="12"/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Kullanıcı adı</text>
+                  </desc>
+               </field>
+               <field h="9mm" name="DATE" w="62mm" x="123.825mm" y="19.05mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
                   <para vAlign="middle"/>
                   <value>
-                     <text xliff:rid="F6F38600-B694-475C-BC5D-372BB89509BC">Kullanıcı</text>
+                     <date/>
                   </value>
-               </caption>
-               <bind match="dataRef" ref="$.SFPSY.USERNAME"/>
-               <value>
-                  <text maxChars="12"/>
-               </value>
-               <desc>
-                  <text name="Schema Annotation">Kullanıcı adı</text>
-               </desc>
-            </field>
-            <field h="9mm" name="DATE" w="62mm" x="139.7mm" y="25.4mm">
-               <ui>
-                  <dateTimeEdit>
-                     <border>
-                        <edge stroke="lowered"/>
-                     </border>
-                     <margin/>
-                  </dateTimeEdit>
-               </ui>
-               <font typeface="Arial"/>
-               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-               <para vAlign="middle"/>
-               <value>
-                  <date/>
-               </value>
-               <caption reserve="25mm">
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="BF1ED1E3-B94C-4808-B6D4-D3B0C5CB3391">Tarih</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.SFPSY.DATE">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Sistem tarihi</text>
+                  </desc>
+                  <validate nullTest="error"/>
+               </field>
+               <field h="9mm" name="TIME" w="62mm" x="123.825mm" y="28.575mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
                   <para vAlign="middle"/>
                   <value>
-                     <text xliff:rid="BF1ED1E3-B94C-4808-B6D4-D3B0C5CB3391">Tarih</text>
+                     <time/>
                   </value>
-               </caption>
-               <bind match="dataRef" ref="$.SFPSY.DATE">
-                  <picture>date{YYYY-MM-DD}</picture>
-               </bind>
-               <desc>
-                  <text name="Schema Annotation">Sistem tarihi</text>
-               </desc>
-               <validate nullTest="error"/>
-            </field>
-            <field h="9mm" name="TIME" w="62mm" x="139.7mm" y="34.925mm">
-               <ui>
-                  <dateTimeEdit>
-                     <border>
-                        <edge stroke="lowered"/>
-                     </border>
-                     <margin/>
-                  </dateTimeEdit>
-               </ui>
-               <font typeface="Arial"/>
-               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-               <para vAlign="middle"/>
-               <value>
-                  <time/>
-               </value>
-               <caption reserve="25mm">
-                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="797C04D5-8753-4C88-9FDD-15484F909648">Saat</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.SFPSY.TIME">
+                     <picture>time{KK:MM:SS}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Sistem saati</text>
+                  </desc>
+                  <validate nullTest="error"/>
+               </field>
+               <draw h="25.4mm" name="Image1" w="28.575mm" y="12.7mm">
                   <value>
-                     <text xliff:rid="797C04D5-8753-4C88-9FDD-15484F909648">Saat</text>
-                  </value>
-               </caption>
-               <bind match="dataRef" ref="$.SFPSY.TIME">
-                  <picture>time{KK:MM:SS}</picture>
-               </bind>
-               <desc>
-                  <text name="Schema Annotation">Sistem saati</text>
-               </desc>
-               <validate nullTest="error"/>
-            </field>
-            <field h="9.525mm" name="IV_BARCODE" w="12.7mm" x="15.875mm" y="257.175mm">
-               <ui>
-                  <barcode dataLength="10" endChar="b" startChar="a" type="codabar" wideNarrowRatio="3.0"/>
-               </ui>
-               <font typeface="Courier New"/>
-               <value>
-                  <text xliff:rid="C3B4AD48-2BA7-4AFF-BBD7-7DF27E3B802A">1234567890</text>
-               </value>
-               <bind match="dataRef" ref="$.IV_BARCODE"/>
-               <desc>
-                  <text name="Schema Annotation">Karakter alanı uzunluğu 10</text>
-               </desc>
-            </field>
-            <draw h="25.4mm" name="Image1" w="28.575mm" x="15.875mm" y="19.05mm">
-               <value>
-                  <image contentType="image/png">iVBORw0KGgoAAAANSUhEUgAAAGIAAABaCAYAAABDjIPOAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+                     <image contentType="image/png">iVBORw0KGgoAAAANSUhEUgAAAGIAAABaCAYAAABDjIPOAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAyMzowNzoy
 MCAxNjo1Mjo1NjBPAsEAABr3SURBVHhe5V0JmBTVtT7V+z4LDMMyDDAwLAOIgBDEjUTc0E8U476b
 YNTEmBffC675kmheXhJjXBITl2dMFI0YjBG3oBLFhUU2QVZZZ5jp6X1fqms579zq6p7umZ69u8G8
@@ -277,186 +267,208 @@ uX56hyyYFVIYb9CBYDWSVTNCyuYA4YSpwM3/GnALF0LliScreY8FjitB5II1KrJ/N4jrPoHwpg1g
 +HwrWJztYIwLYEikAFOi4lvIA1NIw6K/DKs1wOlIXMyha2lfb4CUmZhv0kOisgakmZPAMOkk0Myf
 CfaZp4Fe/eD8WOO4FUQhpEJuCO/5EnTuI5A61AY6nx/kRAh4ZwJkMUw5WBRWAcYRVgC7FWRHBZgm
 NECqcjg4miaAqWa0Us7xiK+UIP59AfB/m7NU/GwYXlsAAAAASUVORK5CYII=</image>
-               </value>
+                  </value>
+                  <ui>
+                     <imageEdit/>
+                  </ui>
+                  <desc>
+                     <text name="embeddedHref">C:\Users\caglakacar\OneDrive\Masaüstü\logo.png</text>
+                  </desc>
+               </draw>
+               <?templateDesigner expand 1?></subform>
+            <field h="9.525mm" name="IV_BARCODE" w="12.7mm" x="15.875mm" y="257.175mm">
                <ui>
-                  <imageEdit/>
+                  <barcode dataLength="10" endChar="b" startChar="a" type="codabar" wideNarrowRatio="3.0"/>
                </ui>
+               <font typeface="Courier New"/>
+               <value>
+                  <text xliff:rid="C3B4AD48-2BA7-4AFF-BBD7-7DF27E3B802A">1234567890</text>
+               </value>
+               <bind match="dataRef" ref="$.IV_BARCODE"/>
                <desc>
-                  <text name="embeddedHref">C:\Users\caglakacar\OneDrive\Masaüstü\logo.png</text>
+                  <text name="Schema Annotation">Karakter alanı uzunluğu 10</text>
                </desc>
-            </draw>
+            </field>
             <?templateDesigner expand 1?></pageArea>
          <?templateDesigner expand 1?></pageSet>
-      <subform h="10.5in" w="8in">
-         <subform h="88.9mm" name="Subform1" w="203.2mm" y="53.975mm">
+      <subform columnWidths="48.227mm 21.733mm 48.227mm 72.253mm" layout="table" name="GT_FLIGHT">
+         <subform id="overflowLeader_ID" layout="row" name="overflowLeader">
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="C8325217-0B11-4225-80E1-62778A609862">Tn</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="8CFE8E99-9337-4C3C-A26A-E192227A9378">Havayolu şirketi</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="7378EE4A-BD7F-44BE-B7D1-D5CC1831A228">PB</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="30BA5166-C221-4C01-8061-75F64FAE2765">Ha.yl.şirketinin URL'si</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <assist role="TH"/>
+            <occur max="-1"/>
             <bind match="none"/>
-            <subform columnWidths="50mm 50mm 50mm 50mm" layout="table" name="GT_FLIGHT" y="3.175mm">
-               <subform id="overflowLeader_ID" layout="row" name="overflowLeader">
-                  <draw>
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <value>
-                        <text xliff:rid="C359AC8B-A861-47BB-9F8E-F22AF60923F0">Tn</text>
-                     </value>
-                     <font typeface="Arial"/>
-                     <para vAlign="middle"/>
-                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-                     <border>
-                        <edge/>
-                     </border>
-                  </draw>
-                  <draw>
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <value>
-                        <text xliff:rid="307461A3-2001-4D02-9F7A-521435992336">Havayolu şirketi</text>
-                     </value>
-                     <font typeface="Arial"/>
-                     <para vAlign="middle"/>
-                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-                     <border>
-                        <edge/>
-                     </border>
-                  </draw>
-                  <draw>
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <value>
-                        <text xliff:rid="43FF1A4F-6D6A-41E1-8E34-BBF2FD83CE1C">PB</text>
-                     </value>
-                     <font typeface="Arial"/>
-                     <para vAlign="middle"/>
-                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-                     <border>
-                        <edge/>
-                     </border>
-                  </draw>
-                  <draw>
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <value>
-                        <text xliff:rid="DAC4CFE8-AB9B-4F73-A983-97E648D7FC38">Ha.yl.şirketinin URL'si</text>
-                     </value>
-                     <font typeface="Arial"/>
-                     <para vAlign="middle"/>
-                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
-                     <border>
-                        <edge/>
-                     </border>
-                  </draw>
-                  <assist role="TH"/>
-                  <occur max="-1"/>
-                  <bind match="none"/>
-                  <?templateDesigner expand 1?></subform>
-               <subform layout="row" name="DATA">
-                  <field h="9mm" name="CARRID" w="62mm">
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <font typeface="Arial"/>
-                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-                     <para vAlign="middle"/>
-                     <value>
-                        <text maxChars="3"/>
-                     </value>
-                     <bind match="dataRef" ref="$.CARRID"/>
-                     <desc>
-                        <text name="Schema Annotation">Havayolu şirketinin kısa tanımı</text>
-                     </desc>
-                     <border>
-                        <edge/>
-                     </border>
-                  </field>
-                  <field h="9mm" name="CARRNAME" w="62mm" x="2.440944in">
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <font typeface="Arial"/>
-                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-                     <para vAlign="middle"/>
-                     <value>
-                        <text maxChars="20"/>
-                     </value>
-                     <bind match="dataRef" ref="$.CARRNAME"/>
-                     <desc>
-                        <text name="Schema Annotation">Havayolu şirketinin adı</text>
-                     </desc>
-                     <border>
-                        <edge/>
-                     </border>
-                  </field>
-                  <field h="9mm" name="CARRCODE" w="62mm" x="4.881889in">
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <font typeface="Arial"/>
-                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-                     <para vAlign="middle"/>
-                     <value>
-                        <text maxChars="5"/>
-                     </value>
-                     <bind match="dataRef" ref="$.CARRCODE"/>
-                     <desc>
-                        <text name="Schema Annotation">Havayolu şirketinin ulusal para birimi</text>
-                     </desc>
-                     <border>
-                        <edge/>
-                     </border>
-                  </field>
-                  <field h="9mm" name="CARRURL" w="62mm" y="0.354333in">
-                     <ui>
-                        <textEdit>
-                           <margin/>
-                        </textEdit>
-                     </ui>
-                     <font typeface="Arial"/>
-                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
-                     <para vAlign="middle"/>
-                     <value>
-                        <text maxChars="255"/>
-                     </value>
-                     <bind match="dataRef" ref="$.CARRURL"/>
-                     <desc>
-                        <text name="Schema Annotation">Havayolu şirketinin URL'si</text>
-                     </desc>
-                     <border>
-                        <edge/>
-                     </border>
-                  </field>
-                  <assist role="TR"/>
-                  <occur max="-1"/>
-                  <bind match="dataRef" ref="$.DATA[*]"/>
-                  <?templateDesigner expand 1?></subform>
-               <occur min="0"/>
-               <bind match="dataRef" ref="$.GT_FLIGHT"/>
-               <keep intact="contentArea"/>
-               <overflow leader="overflowLeader"/>
-               <?templateDesigner expand 1?></subform>
-            <?templateDesigner expand 1?>
-            <keep intact="none"/>
-         </subform>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="row" name="DATA">
+            <field h="9mm" name="CARRID" w="62mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="3"/>
+               </value>
+               <bind match="dataRef" ref="$.CARRID"/>
+               <desc>
+                  <text name="Schema Annotation">Havayolu şirketinin kısa tanımı</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="CARRNAME" w="62mm" x="2.440944in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="20"/>
+               </value>
+               <bind match="dataRef" ref="$.CARRNAME"/>
+               <desc>
+                  <text name="Schema Annotation">Havayolu şirketinin adı</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="CARRCODE" w="62mm" x="4.881889in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="5"/>
+               </value>
+               <bind match="dataRef" ref="$.CARRCODE"/>
+               <desc>
+                  <text name="Schema Annotation">Havayolu şirketinin ulusal para birimi</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="CARRURL" w="62mm" y="0.354333in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <bind match="dataRef" ref="$.CARRURL"/>
+               <desc>
+                  <text name="Schema Annotation">Havayolu şirketinin URL'si</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <assist role="TR"/>
+            <occur max="-1"/>
+            <bind match="dataRef" ref="$.DATA[*]"/>
+            <?templateDesigner expand 1?></subform>
+         <occur min="0"/>
+         <bind match="dataRef" ref="$.GT_FLIGHT"/>
+         <overflow leader="overflowLeader"/>
          <?templateDesigner expand 1?>
-         <subform h="50mm" name="Subform2" w="193.675mm" x="3.175mm" y="146.05mm">
-            <bind match="none"/>
-            <subform h="11mm" name="GS_COUNT" w="129.175mm" x="31.75mm" y="38.1mm">
+         <subform layout="row" name="DATA">
+            <assist role="TR"/>
+            <draw colSpan="2" h="0.354333in" w="62mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text>  </text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <subform colSpan="2" h="11mm" name="GS_COUNT">
                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
                <field h="9mm" name="NAME" w="62mm">
                   <ui>
@@ -473,12 +485,12 @@ NECqcjg4miaAqWa0Us7xiK+UIP59AfB/m7NU/GwYXlsAAAAASUVORK5CYII=</image>
                   <caption reserve="25mm">
                      <para vAlign="middle"/>
                      <value>
-                        <text xliff:rid="63E47309-540D-4B6E-87F8-4F920C02B6A3">NAME</text>
+                        <text xliff:rid="A5E3F2D6-581A-4A12-9EAD-F352FB23C13B">NAME</text>
                      </value>
                   </caption>
                   <bind match="dataRef" ref="$.NAME"/>
                </field>
-               <field h="9mm" name="COUNT" w="62mm" x="2.440944in">
+               <field h="9mm" name="COUNT" w="57.54mm" x="62mm" y="0mm">
                   <ui>
                      <numericEdit>
                         <border>
@@ -496,7 +508,7 @@ NECqcjg4miaAqWa0Us7xiK+UIP59AfB/m7NU/GwYXlsAAAAASUVORK5CYII=</image>
                   <caption reserve="25mm">
                      <para vAlign="middle"/>
                      <value>
-                        <text xliff:rid="05E068F1-76DE-41DE-BBD9-771D03A3B6D3">COUNT</text>
+                        <text xliff:rid="9539D227-F784-470B-9B58-D15D6D83A70E">COUNT</text>
                      </value>
                   </caption>
                   <bind match="dataRef" ref="$.COUNT"/>
@@ -506,13 +518,22 @@ NECqcjg4miaAqWa0Us7xiK+UIP59AfB/m7NU/GwYXlsAAAAASUVORK5CYII=</image>
 </script>
                   </validate>
                </field>
-               <bind match="dataRef" ref="$.GS_COUNT"/>
+               <bind match="dataRef" ref="$record.GS_COUNT"/>
+               <border>
+                  <edge/>
+                  <corner/>
+               </border>
                <?templateDesigner expand 1?></subform>
-            <?templateDesigner expand 1?>
-            <keep intact="none"/>
-         </subform>
-         <keep intact="none"/>
+            <?templateDesigner expand 1?></subform>
       </subform>
+      <subform layout="tb" w="7.5in">
+         <subform layout="tb" name="Subform1" w="203.2mm">
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="tb" name="Subform2" w="193.675mm">
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
       <proto/>
       <desc>
          <text name="version">11.0.9.20230422.1.42.2</text>
@@ -709,7 +730,7 @@ NECqcjg4miaAqWa0Us7xiK+UIP59AfB/m7NU/GwYXlsAAAAASUVORK5CYII=</image>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
-         <xmp:MetadataDate>2023-07-21T15:02:51Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2023-07-26T06:53:34Z</xmp:MetadataDate>
          <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
          <pdfuaid:part>1</pdfuaid:part>
          <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>

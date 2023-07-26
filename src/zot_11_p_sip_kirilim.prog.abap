@@ -46,7 +46,7 @@ SELECTION-SCREEN END OF BLOCK b1.
 
 SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME TITLE TEXT-002.
   PARAMETERS:     p_sprtur  AS CHECKBOX,     "sipariş türü
-                  P_spsvrn  AS CHECKBOX,     "sipariş veren
+                  P_sprvrn  AS CHECKBOX,     "sipariş veren
                   P_mlno    AS CHECKBOX,     "mal no
                   p_mlgrp   AS CHECKBOX,     "mal grup
                   p_parti   AS CHECKBOX.     "parti
@@ -95,7 +95,7 @@ APPEND gs_fldcat TO gt_fldcat.
 ENDIF.
 
 
-IF P_spsvrn EQ 'abap true'.
+IF P_sprvrn EQ 'abap true'.
 
 APPEND gs_group TO gt_group.
 APPEND gs_fldcat TO gt_fldcat.
